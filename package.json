@@ -1,0 +1,24 @@
+{
+  "name": "say-hello-function",
+  "version": "0.0.1",
+  "description": "Just a test package.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/boomtrex/say-hello-functions"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "boomtrex",
+  "license": " MIT",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
